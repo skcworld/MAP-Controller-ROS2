@@ -1,0 +1,6 @@
+/**:
+  ros__parameters:
+    q_pp: 0.3
+    m_pp: 0.2
+    t_clip_min: 0.5
+    t_clip_max: 3.0
