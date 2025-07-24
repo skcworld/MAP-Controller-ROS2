@@ -2,7 +2,7 @@
 
 Welcome to **MAP-Controller-ROS2**, a ROS 2 port of the original [Model- and Acceleration-based Pursuit (MAP) controller](https://github.com/ETH-PBL/MAP-Controller) developed by the [PBL Lab at ETH Zürich](https://pbl.ee.ethz.ch/). This controller provides an accurate and robust trajectory tracking algorithm for high-speed autonomous vehicles based on a combination of Pure Pursuit geometry and physics-based modeling.
 
-## ⚠️ **This repository contains only the ROS 2 port of the MAP controller.** For a detailed explanation of the algorithm and theory, please refer to the original repository linked above.
+### ⚠️ **This repository contains only the ROS 2 port of the MAP controller.** For a detailed explanation of the algorithm and theory, please refer to the original repository linked above.
 
 ---
 
