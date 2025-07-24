@@ -2,9 +2,7 @@
 
 Welcome to **MAP-Controller-ROS2**, a ROS 2 port of the original [Model- and Acceleration-based Pursuit (MAP) controller](https://github.com/ETH-PBL/MAP-Controller) developed by the [PBL Lab at ETH Zürich](https://pbl.ee.ethz.ch/). This controller provides an accurate and robust trajectory tracking algorithm for high-speed autonomous vehicles based on a combination of Pure Pursuit geometry and physics-based modeling.
 
-### ⚠️ **This repository contains only the ROS 2 port of the MAP controller.** For a detailed explanation of the algorithm and theory, please refer to the original repository linked above.
-
----
+⚠️ **This repository contains only the ROS 2 port of the MAP controller.** For a detailed explanation of the algorithm and theory, please refer to the original repository linked above.
 
 ## About MAP Controller
 
@@ -15,8 +13,6 @@ The original ROS 1 implementation provided:
 - A simulator for evaluation
 - A lookup table generator based on vehicle dynamics
 
----
-
 ## What’s in This Port (ROS 2)
 
 This repository includes:
@@ -26,9 +22,7 @@ This repository includes:
 - Launch files for running the controller stack
 - Clean separation of logic and ROS interfaces
 
----
-
-## ⚠️ Key Differences from Original Code
+## Key Differences from Original Code
 
 - **Lookup Table Generator Not Included**  
   The ROS 2 version does **not** include `simulate_model.py` or any lookup table generation logic.  
@@ -47,8 +41,6 @@ This repository includes:
   👉 [f1tenth/f1tenth_gym_ros (ROS 2)](https://github.com/f1tenth/f1tenth_gym_ros)
 
   I will provide a simulator port in the future!!
-
----
 
 ## Build and Run Instructions
 Assuming you already have a ROS 2 workspace set up:
